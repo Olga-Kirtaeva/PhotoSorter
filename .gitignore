@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Build and test output
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Personal photo and video files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.heic
+*.heif
+*.webp
+*.tif
+*.tiff
+*.raw
+*.dng
+*.mp4
+*.mov
+*.avi
